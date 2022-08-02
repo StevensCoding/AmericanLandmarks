@@ -1,0 +1,104 @@
+{
+  "landmarks": [
+    {
+      "name": "Statue of Liberty",
+      "location": [
+        {
+          "city": "New York City",
+          "state": "New York"
+        }
+      ],
+      "id": 1
+    },
+    {
+      "name": "Golden Gate Bridge",
+      "location": [
+        {
+          "city": "San Francisco",
+          "state": "California"
+        }
+      ],
+      "id": 2
+    },
+    {
+      "name": "Seattle Space Needle",
+      "location": [
+        {
+          "city": "Seattle",
+          "state": "Washington"
+        }
+      ],
+      "id": 3
+    },
+    {
+      "name": "Mount Rushmore",
+      "location": [
+        {
+          "city": "Keystone",
+          "state": "South Dakota"
+        }
+      ],
+      "id": 4
+    },
+    {
+      "name": "Hoover Dam",
+      "location": [
+        {
+          "city": "N/A",
+          "state": "Nevada"
+        }
+      ],
+      "id": 5
+    },
+    {
+      "name": "Washington Monument",
+      "location": [
+        {
+          "city": "Washington DC",
+          "state": "N/A"
+        }
+      ],
+      "id": 6
+    },
+    {
+      "name": "Niagara Falls",
+      "location": [
+        {
+          "city": "N/A",
+          "state": "New York"
+        }
+      ],
+      "id": 7
+    },
+    {
+      "name": "Empire State Building",
+      "location": [
+        {
+          "city": "New York",
+          "state": "New York"
+        }
+      ],
+      "id": 8
+    },
+    {
+      "name": "Grand Canyon",
+      "location": [
+        {
+          "city": "N/A",
+          "state": "Arizona"
+        }
+      ],
+      "id": 9
+    },
+    {
+      "name": "Gateway Arch",
+      "location": [
+        {
+          "city": "St Louis",
+          "state": "Missouri"
+        }
+      ],
+      "id": 10
+    }
+  ]
+}
