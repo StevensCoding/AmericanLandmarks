@@ -1,103 +1,113 @@
 {
   "landmarks": [
     {
-      "name": "Statue of Liberty",
+      "landmarkName": "Statue of Liberty",
       "location": [
         {
           "city": "New York City",
           "state": "New York"
         }
       ],
+      "url": "./images/statueOfLiberty.jpg",
       "id": 1
     },
     {
-      "name": "Golden Gate Bridge",
+      "landmarkName": "Golden Gate Bridge",
       "location": [
         {
           "city": "San Francisco",
           "state": "California"
         }
       ],
+      "url": "./images/goldenGateBridge.jpg",
       "id": 2
     },
     {
-      "name": "Seattle Space Needle",
+      "landmarkName": "Seattle Space Needle",
       "location": [
         {
           "city": "Seattle",
           "state": "Washington"
         }
       ],
+      "url": "./images/spaceNeedle.jpg",
       "id": 3
     },
     {
-      "name": "Mount Rushmore",
+      "landmarkName": "Mount Rushmore",
       "location": [
         {
           "city": "Keystone",
           "state": "South Dakota"
         }
       ],
+      "url": "./images/mountRushmore.jpg",
       "id": 4
     },
     {
-      "name": "Hoover Dam",
+      "landmarkName": "Hoover Dam",
       "location": [
         {
-          "city": "N/A",
+          "city": "",
           "state": "Nevada"
         }
       ],
+      "url": "./images/hooverDam.jpg",
       "id": 5
     },
     {
-      "name": "Washington Monument",
+      "landmarkName": "Washington Monument",
       "location": [
         {
           "city": "Washington DC",
-          "state": "N/A"
+          "state": ""
         }
       ],
+      "url": "./images/washingtonMonument.jpg",
       "id": 6
     },
     {
-      "name": "Niagara Falls",
+      "landmarkName": "Niagara Falls",
       "location": [
         {
-          "city": "N/A",
+          "city": "",
           "state": "New York"
         }
       ],
+      "url": "./images/niagaraFalls.jpg",
       "id": 7
     },
     {
-      "name": "Empire State Building",
+      "landmarkName": "Empire State Building",
       "location": [
         {
           "city": "New York",
           "state": "New York"
         }
       ],
+      "url": "./images/empireStateBuilding.jpg",
       "id": 8
     },
     {
-      "name": "Grand Canyon",
+      "landmarkName": "Grand Canyon",
       "location": [
         {
-          "city": "N/A",
+          "city": "",
           "state": "Arizona"
         }
       ],
+      "url": "./images/grandCanyon.jpg",
       "id": 9
     },
     {
-      "name": "Gateway Arch",
+      "landmarkName": "Gateway Arch",
       "location": [
         {
           "city": "St Louis",
           "state": "Missouri"
         }
       ],
+      "url": "./images/gatewayArch.jpg",
       "id": 10
     }
   ]
