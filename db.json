@@ -1,0 +1,114 @@
+{
+  "landmarks": [
+    {
+      "landmarkName": "Statue of Liberty",
+      "location": [
+        {
+          "city": "New York City",
+          "state": "New York"
+        }
+      ],
+      "url": "./images/statueOfLiberty.jpg",
+      "id": 1
+    },
+    {
+      "landmarkName": "Golden Gate Bridge",
+      "location": [
+        {
+          "city": "San Francisco",
+          "state": "California"
+        }
+      ],
+      "url": "./images/goldenGateBridge.jpg",
+      "id": 2
+    },
+    {
+      "landmarkName": "Seattle Space Needle",
+      "location": [
+        {
+          "city": "Seattle",
+          "state": "Washington"
+        }
+      ],
+      "url": "./images/spaceNeedle.jpg",
+      "id": 3
+    },
+    {
+      "landmarkName": "Mount Rushmore",
+      "location": [
+        {
+          "city": "Keystone",
+          "state": "South Dakota"
+        }
+      ],
+      "url": "./images/mountRushmore.jpg",
+      "id": 4
+    },
+    {
+      "landmarkName": "Hoover Dam",
+      "location": [
+        {
+          "city": "",
+          "state": "Nevada"
+        }
+      ],
+      "url": "./images/hooverDam.jpg",
+      "id": 5
+    },
+    {
+      "landmarkName": "Washington Monument",
+      "location": [
+        {
+          "city": "Washington DC",
+          "state": ""
+        }
+      ],
+      "url": "./images/washingtonMonument.jpg",
+      "id": 6
+    },
+    {
+      "landmarkName": "Niagara Falls",
+      "location": [
+        {
+          "city": "",
+          "state": "New York"
+        }
+      ],
+      "url": "./images/niagaraFalls.jpg",
+      "id": 7
+    },
+    {
+      "landmarkName": "Empire State Building",
+      "location": [
+        {
+          "city": "New York",
+          "state": "New York"
+        }
+      ],
+      "url": "./images/empireStateBuilding.jpg",
+      "id": 8
+    },
+    {
+      "landmarkName": "Grand Canyon",
+      "location": [
+        {
+          "city": "",
+          "state": "Arizona"
+        }
+      ],
+      "url": "./images/grandCanyon.jpg",
+      "id": 9
+    },
+    {
+      "landmarkName": "Gateway Arch",
+      "location": [
+        {
+          "city": "St Louis",
+          "state": "Missouri"
+        }
+      ],
+      "url": "./images/gatewayArch.jpg",
+      "id": 10
+    }
+  ]
+}
