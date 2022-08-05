@@ -48,7 +48,7 @@
       "landmarkName": "Hoover Dam",
       "location": [
         {
-          "city": "",
+          "city": "NA",
           "state": "Nevada"
         }
       ],
@@ -60,7 +60,7 @@
       "location": [
         {
           "city": "Washington DC",
-          "state": ""
+          "state": "NA"
         }
       ],
       "url": "./images/washingtonMonument.jpg",
@@ -70,7 +70,7 @@
       "landmarkName": "Niagara Falls",
       "location": [
         {
-          "city": "",
+          "city": "NA",
           "state": "New York"
         }
       ],
@@ -92,7 +92,7 @@
       "landmarkName": "Grand Canyon",
       "location": [
         {
-          "city": "",
+          "city": "NA",
           "state": "Arizona"
         }
       ],
@@ -110,5 +110,13 @@
       "url": "./images/gatewayArch.jpg",
       "id": 10
     }
+  ],
+  "suggestions":[
+    {
+      "placeName": "sample",
+      "theLocation": "my heart"
+
+    }
+
   ]
 }
