@@ -1,38 +1,51 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="author" content="Steven Young">
-    <meta name="description" content="Come see the American Landmarks!">
-    <script src='main.js'></script>
-    <title>The American Landmarks</title>
-  </head>
-  <body>
-    <h1>Top American Landmarks</h1>
-    <div>
-        <p>Welcome to America! Here, you can preview the top landmarks in the USA!</p>
-      </div>
-    <section class="QandA">
-      <div>
-        <h2 class="top">What's the point?</h2>
-        <p>Some people would go their ENTIRE life without exploring what the world has to offer outside of their own state; some even their own city! This page is dedicated to helping you see where some places are and how beautiful you can imagine it to be in person.</p>
-      </div>
-      <div>
-      <h2 class="top">Would these places be expensive to visit?</h2>
-      <p>The cost of travel will vary from place to place but a landmark doesn't have a price point. All you have to do is go there and see it for yourself!
-      </p>
-      </div>
-      <div>
-        <h2 class="top">Can I see some?</h2>
-        <p>Sure! Scroll down!</p>
-      </div>
-    </section>
-    <section>
-      <button id="landmarkButton">Push me to see the landmarks!
-    </button> 
-    </section>
-    <div id="forLandmarks">
-
-    </div>
-  </body>
+ <head>
+  <meta charset="utf-8">
+  <meta name="author" content="Steven Young">
+  <meta name="description" content="Come see the American Landmarks!">
+  <script src='main.js'></script>
+  <title>The American Landmarks</title>
+ </head>
+ <body>
+  <h1>Top American Landmarks</h1>
+  <div>
+   <p>Welcome to America! Here, you can preview the top landmarks in the USA!</p>
+  </div>
+  <section class="QandA">
+   <div>
+    <h2 class="top">What's the point?</h2>
+    <p>Some people would go their ENTIRE life without exploring what the world has to offer outside of their own state; some even their own city! This page is dedicated to helping you see where some places are and how beautiful you can imagine it to be in person.</p>
+   </div>
+   <div>
+    <h2 class="top">Would these places be expensive to visit?</h2>
+    <p>The cost of travel will vary from place to place but a landmark doesn't have a price point. All you have to do is go there and see it for yourself! </p>
+   </div>
+   <div>
+    <h2 class="top">Can I see some?</h2>
+    <p>Sure! Scroll down!</p>
+   </div>
+  </section>
+  <section>
+   <button id="landmarkButton">Push me to see the landmarks! </button>
+  </section>
+  <div id="forLandmarks"></div>
+  <div id="suggestionsBox">
+   <h4>Suggestions</h4>
+   <p>Want to give a suggestion for a landmark?</p>
+   <form id="suggestionsForm" method="POST">
+    <label for="placeName">Landmark:</label>
+    <br>
+    <input type="text" value="" name="landmarkField" id="landmarkField">
+    <br>
+    <label for="theLocation">Location:</label>
+    <br>
+    <input type="text" value="" name="landmarkField" id="locationField">
+    <br>
+    <br>
+    <input type="submit" value="Submit" id="submitSuggestion">
+   </form>
+   <p>Submit one here!</p>
+  </div>
+ </body>
 </html>
