@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="style.css">
   <title>The American Landmarks</title>
  </head>
- <body>
+ <body class="body">
     <div id="title-flex">
   <h1>Top American Landmarks</h1>
 
@@ -30,26 +30,30 @@
   </section>
   <br>
   <section>
+    <div id="centerButton">
    <button id="landmarkButton">Push me to see the landmarks! </button>
+   </div>
   </section>
   <br>
   <div id="forLandmarks"></div>
-  <div id="suggestionsBox">
-   <h4>Suggestions</h4>
+  <div id="suggestionsContainer">
+  <div id="suggestionsBox" class="sugmaBox">
+   <h4 >Suggestions</h4>
    <p>Want to give a suggestion for a landmark?</p>
    <form id="suggestionsForm" method="POST">
-    <label for="placeName" class="sug">Landmark:</label>
+    <label for="placeName" class="landmarkLabel">Landmark:</label>
     <br>
-    <input type="text" class="ma" value="" name="landmarkField" id="landmarkField">
+    <input type="text" class="landmarkInput" value="" name="landmarkField" id="landmarkField">
     <br>
-    <label for="theLocation" class="sug">Location:</label>
+    <label for="theLocation" class="landmarkLabel">Location:</label>
     <br>
-    <input type="text" class="ma" value="" name="landmarkField" id="locationField">
+    <input type="text" class="landmarkInput" value="" name="landmarkField" id="locationField">
     <br>
     <br>
     <input type="submit"  value="Submit" id="submitSuggestion">
    </form>
    <p>Submit one here!</p>
+  </div>
   </div>
  </body>
 </html>
