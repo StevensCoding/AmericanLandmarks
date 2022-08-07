@@ -1,0 +1,155 @@
+.body {
+  background-color: #cbc3e3;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color:#fcf7de;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    border: 5px solid #b399d4;
+} 
+.flex-container > h2 {
+    align-items: center;
+  } 
+  .flex-container > p {
+    background-color: #ebe0e0;
+    color:rgb(159, 19, 56);
+    align-items: center;
+    margin: 0%;
+    padding: 10px
+  }
+  #landmarkButton {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+
+
+  }
+  #centerButton{
+    height: 200px;
+    position: relative;
+    border: 3px solid green;
+  }
+
+#title-flex > h1 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  align-content: normal;
+  color: #000072;
+  font-size: 75px;
+  text-decoration: underline;
+}
+#title-flex > p {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: normal;
+  padding: 15px;
+  margin: 10px;
+  color: #663882;
+  border-style: solid;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+}
+.theLandmarkClass{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background-color: rgba(169, 20, 20, 0.9);
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+}
+
+.landmarkImage{
+border:#415f8d;
+}
+
+.locationName{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background-color: rgba(169, 20, 20, 0.9);
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+}
+
+.landmarkLabel {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background-color: rgba(97, 20, 169, 0.9);
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+}
+.landmarkInput {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background-color: rgba(187, 29, 181, 0.9);
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+}
+#suggestionsBox > h4 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background-color: rgba(169, 109, 20, 0.9);
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+}
+#suggestionsBox > p {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background-color: rgba(218, 183, 43, 0.9);
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+}
+.sugmaBox {
+  background-color: gray;
+  margin: 0;
+  padding: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#suggestionsContainer {
+  height: 350px;
+  width: 100%;
+  position: relative;
+
+}
+#submitSuggestion {
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+}  
+#landmarkField {
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+}
+#locationField {
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+}
