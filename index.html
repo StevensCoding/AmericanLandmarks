@@ -9,8 +9,9 @@
   <title>The American Landmarks</title>
  </head>
  <body>
+    <div id="title-flex">
   <h1>Top American Landmarks</h1>
-  <div>
+
    <p>Welcome to America! Here, you can preview the top landmarks in the USA!</p>
   </div>
   <section class="QandA">
@@ -27,32 +28,28 @@
     <p>Sure! All you have to do is grab your mouse and scroll down a little bit. Give that button a push!</p>
    </div>
   </section>
+  <br>
   <section>
    <button id="landmarkButton">Push me to see the landmarks! </button>
   </section>
+  <br>
   <div id="forLandmarks"></div>
   <div id="suggestionsBox">
    <h4>Suggestions</h4>
    <p>Want to give a suggestion for a landmark?</p>
    <form id="suggestionsForm" method="POST">
-    <label for="placeName">Landmark:</label>
+    <label for="placeName" class="sug">Landmark:</label>
     <br>
-    <input type="text" value="" name="landmarkField" id="landmarkField">
+    <input type="text" class="ma" value="" name="landmarkField" id="landmarkField">
     <br>
-    <label for="theLocation">Location:</label>
+    <label for="theLocation" class="sug">Location:</label>
     <br>
-    <input type="text" value="" name="landmarkField" id="locationField">
+    <input type="text" class="ma" value="" name="landmarkField" id="locationField">
     <br>
     <br>
-    <input type="submit" value="Submit" id="submitSuggestion">
+    <input type="submit"  value="Submit" id="submitSuggestion">
    </form>
    <p>Submit one here!</p>
   </div>
-  <div class="flex-container">
-    <div>1</div>
-    <div>2</div>
-    <div>3</div>  
-  </div>
-  
  </body>
 </html>
