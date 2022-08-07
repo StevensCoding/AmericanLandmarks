@@ -29,13 +29,32 @@
     left: 50%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-
-
+    border-radius: 50px;
+    border: 10px solid #bdf2ff;
+    cursor: pointer;
+    font-size: 40px;
+    padding: 30px;
+    position: absolute;
+    height: 200px;
+    width: 1200px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 75px;
+    font-weight: bolder;
+    animation: mymove 5s infinite;
+    background-color: #bdf2ff;
+  }
+  @keyframes mymove {
+    50% {
+      box-shadow: 10px 20px 30px blue;
+    }
+  }
+  @keyframes flashyBox{
+    50% {outline-color: rgb(61, 155, 111);}
   }
   #centerButton{
     height: 200px;
     position: relative;
-    border: 3px solid green;
+
   }
 
 #title-flex > h1 {
@@ -46,7 +65,7 @@
   align-items: flex-start;
   align-content: normal;
   color: #000072;
-  font-size: 75px;
+  font-size: 90px;
   text-decoration: underline;
 }
 #title-flex > p {
@@ -62,6 +81,15 @@
   border-style: solid;
   font-family: 'Courier New', Courier, monospace;
   font-weight: bold;
+  font-size: 20px;
+  animation: textmove 5s infinite;
+}
+@keyframes textmove {
+  50% {text-shadow: 10px 20px 30px rgb(255, 0, 166)};
+}
+@keyframes textmove {
+  50% {text-indent: 150px;
+}
 }
 .theLandmarkClass{
   display: flex;
@@ -91,7 +119,7 @@ border:#415f8d;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  background-color: rgba(97, 20, 169, 0.9);
+  background-color: #c1e7e3;
   justify-content: space-around;
   align-items: center;
   align-content: center;
@@ -100,7 +128,7 @@ border:#415f8d;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  background-color: rgba(187, 29, 181, 0.9);
+  background-color: #80e2ff;
   justify-content: space-around;
   align-items: center;
   align-content: center;
@@ -109,7 +137,7 @@ border:#415f8d;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  background-color: rgba(169, 109, 20, 0.9);
+  background-color: #c1e7e3;
   justify-content: space-around;
   align-items: center;
   align-content: center;
@@ -118,13 +146,13 @@ border:#415f8d;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  background-color: rgba(218, 183, 43, 0.9);
+  background-color: #c1e7e3;
   justify-content: space-around;
   align-items: center;
   align-content: center;
 }
 .sugmaBox {
-  background-color: gray;
+  background-color: #c1e7e3;
   margin: 0;
   padding: 20px;
   position: absolute;
@@ -152,4 +180,12 @@ border:#415f8d;
   left: 50%;
   transform: translate(-50%, -50%);
   position: absolute;
+}
+#suggestionsBox {
+  outline: 1px solid black;
+  animation: flashySug 5s infinite;
+  margin: 20px;
+}
+@keyframes flashySug {
+  10% {outline: 15px solid lightblue;}
 }
