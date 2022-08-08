@@ -30,7 +30,7 @@
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     border-radius: 50px;
-    border: 10px solid #bdf2ff;
+    border: none;
     cursor: pointer;
     font-size: 40px;
     padding: 30px;
@@ -45,7 +45,7 @@
   }
   @keyframes mymove {
     50% {
-      box-shadow: 10px 20px 30px blue;
+      box-shadow: 10px 20px 30px rgb(59, 125, 224);
     }
   }
   @keyframes flashyBox{
@@ -193,11 +193,11 @@ border:#415f8d;
   height: 75px;
   width: 75px;
 }
-#imagesForNightMode {
+#imagesForEvilMode {
   position: relative;
   display: inline-block;
 }
-#imagesForNightMode #evilCat {
+#imagesForEvilMode #evilCat {
   display: none;
   position: absolute;
   top: 0;
@@ -206,7 +206,7 @@ border:#415f8d;
   height: 75px;
   width: 75px;
 }
-#imagesForNightMode:hover #evilCat {
+#imagesForEvilMode:hover #evilCat {
   display: inline;
   height: 75px;
   width: 75px;

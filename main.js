@@ -53,9 +53,9 @@ document.addEventListener("DOMContentLoaded", () => {
             sugBox.innerHTML = 'Thank you for your suggestion! It has been submitted.'
         })
         
-        const toggleNightModeOn = document.getElementById("dontTouchMe");
-        toggleNightModeOn.addEventListener('mouseover', nightMode);  
-        function nightMode(){
+        const toggleEvilModeOn = document.getElementById("dontTouchMe");
+        toggleEvilModeOn.addEventListener('mouseover', evilMode);  
+        function evilMode(){
             document.getElementById("body").style.backgroundColor = "#000000";
             document.getElementsByClassName("flex-container")[0].style.backgroundColor = "#000000";
             document.getElementsByClassName("flex-container")[0].style.color = "#ffffff";
@@ -69,12 +69,27 @@ document.addEventListener("DOMContentLoaded", () => {
             document.getElementsByClassName("A")[1].style.color = "#ffffff";
             document.getElementsByClassName("A")[2].style.backgroundColor = "#000000";
             document.getElementsByClassName("A")[2].style.color = "#ffffff";
+            //
+            document.getElementById("landmarkButton").style.backgroundColor = "#dd0000";
+            document.getElementById("titleText").style.color = "#8a0707";
+            document.getElementById("suggestionsBox").style.backgroundColor = "#660000";
+            document.getElementById("suggestionsTitle").style.backgroundColor = "#660000";
+            document.getElementById("suggestionsTitle").style.color = "#ffffff";
+            document.getElementById("wantTo").style.backgroundColor = "#660000";
+            document.getElementById("wantTo").style.color = "#ffffff";
+            document.getElementsByClassName("landmarkLabel")[0].style.backgroundColor = "#660000";
+            document.getElementsByClassName("landmarkLabel")[0].style.color = "#ffffff";
+            document.getElementsByClassName("landmarkLabel")[1].style.backgroundColor = "#660000";
+            document.getElementsByClassName("landmarkLabel")[1].style.color = "#ffffff";
+            document.getElementById("submitHere").style.backgroundColor = "#660000";
+            document.getElementById("submitHere").style.color = "#ffffff";
+
 
         }
-        const toggleNightModeOff = document.getElementById("evilCat");
-        toggleNightModeOff.addEventListener('mouseout', nightModeOff);
+        const toggleEvilModeOff = document.getElementById("evilCat");
+        toggleEvilModeOff.addEventListener('mouseout', evilModeOff);
 
-        function nightModeOff(){
+        function evilModeOff(){
             document.getElementById("body").style.backgroundColor = "#cbc3e3";
             document.getElementsByClassName("flex-container")[0].style.backgroundColor = "#fcf7de";
             document.getElementsByClassName("flex-container")[0].style.color = "#000000";
@@ -88,6 +103,20 @@ document.addEventListener("DOMContentLoaded", () => {
             document.getElementsByClassName("A")[1].style.color = "#9F1338";
             document.getElementsByClassName("A")[2].style.backgroundColor = "#ebe0e0";
             document.getElementsByClassName("A")[2].style.color = "#9F1338";
+            //
+            document.getElementById("landmarkButton").style.backgroundColor = "#bdf2ff";
+            document.getElementById("titleText").style.color = "#000072";
+            document.getElementById("suggestionsBox").style.backgroundColor = "#c1e7e3";
+            document.getElementById("suggestionsTitle").style.backgroundColor = "#c1e7e3";
+            document.getElementById("suggestionsTitle").style.color = "#000000";
+            document.getElementById("wantTo").style.backgroundColor = "#c1e7e3";
+            document.getElementById("wantTo").style.color = "#000000";
+            document.getElementsByClassName("landmarkLabel")[0].style.backgroundColor = "#c1e7e3";
+            document.getElementsByClassName("landmarkLabel")[0].style.color = "#000000";
+            document.getElementsByClassName("landmarkLabel")[1].style.backgroundColor = "#c1e7e3";
+            document.getElementsByClassName("landmarkLabel")[1].style.color = "#000000";
+            document.getElementById("submitHere").style.backgroundColor = "#c1e7e3";
+            document.getElementById("submitHere").style.color = "#000000";
 
         }
     })
