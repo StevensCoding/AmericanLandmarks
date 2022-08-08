@@ -19,8 +19,8 @@ document.addEventListener("DOMContentLoaded", () => {
                 const namesList = document.querySelector("#forLandmarks");
                 h3.textContent = names.landmarkName;
                 img.src= `${names.url}`
-                img.height = 400;
-                img.width = 400;
+                img.height = 600;
+                img.width = 900;
                 para.textContent = `Located in: ${location.city}, ${location.state}`;
 
                 if (location.city == "NA") {
@@ -31,7 +31,8 @@ document.addEventListener("DOMContentLoaded", () => {
                     para.innerText = `Located in: ${location.city}, ${location.state}`;
                 }
 
-                namesList.append(h3, img, para);
+
+                namesList.append(h3, para, img);
                 // console.log(para.textContent)
             })})
         })
@@ -51,4 +52,42 @@ document.addEventListener("DOMContentLoaded", () => {
             const sugBox = document.getElementById("suggestionsBox")
             sugBox.innerHTML = 'Thank you for your suggestion! It has been submitted.'
         })
+        
+        const toggleNightModeOn = document.getElementById("dontTouchMe");
+        toggleNightModeOn.addEventListener('mouseover', nightMode);  
+        function nightMode(){
+            document.getElementById("body").style.backgroundColor = "#000000";
+            document.getElementsByClassName("flex-container")[0].style.backgroundColor = "#000000";
+            document.getElementsByClassName("flex-container")[0].style.color = "#ffffff";
+            document.getElementsByClassName("flex-container")[1].style.backgroundColor = "#000000";
+            document.getElementsByClassName("flex-container")[1].style.color = "#ffffff";
+            document.getElementsByClassName("flex-container")[2].style.backgroundColor = "#000000";
+            document.getElementsByClassName("flex-container")[2].style.color = "#ffffff";
+            document.getElementsByClassName("A")[0].style.backgroundColor = "#000000";
+            document.getElementsByClassName("A")[0].style.color = "#ffffff";
+            document.getElementsByClassName("A")[1].style.backgroundColor = "#000000";
+            document.getElementsByClassName("A")[1].style.color = "#ffffff";
+            document.getElementsByClassName("A")[2].style.backgroundColor = "#000000";
+            document.getElementsByClassName("A")[2].style.color = "#ffffff";
+
+        }
+        const toggleNightModeOff = document.getElementById("evilCat");
+        toggleNightModeOff.addEventListener('mouseout', nightModeOff);
+
+        function nightModeOff(){
+            document.getElementById("body").style.backgroundColor = "#cbc3e3";
+            document.getElementsByClassName("flex-container")[0].style.backgroundColor = "#fcf7de";
+            document.getElementsByClassName("flex-container")[0].style.color = "#000000";
+            document.getElementsByClassName("flex-container")[1].style.backgroundColor = "#fcf7de";
+            document.getElementsByClassName("flex-container")[1].style.color = "#000000";
+            document.getElementsByClassName("flex-container")[2].style.backgroundColor = "#fcf7de";
+            document.getElementsByClassName("flex-container")[2].style.color = "#000000";
+            document.getElementsByClassName("A")[0].style.backgroundColor = "#ebe0e0";
+            document.getElementsByClassName("A")[0].style.color = "#9F1338";
+            document.getElementsByClassName("A")[1].style.backgroundColor = "#ebe0e0";
+            document.getElementsByClassName("A")[1].style.color = "#9F1338";
+            document.getElementsByClassName("A")[2].style.backgroundColor = "#ebe0e0";
+            document.getElementsByClassName("A")[2].style.color = "#9F1338";
+
+        }
     })
