@@ -1,4 +1,4 @@
-.body {
+#body {
   background-color: #cbc3e3;
 }
 
@@ -17,7 +17,7 @@
   } 
   .flex-container > p {
     background-color: #ebe0e0;
-    color:rgb(159, 19, 56);
+    color: #9F1338;
     align-items: center;
     margin: 0%;
     padding: 10px
@@ -188,4 +188,30 @@ border:#415f8d;
 }
 @keyframes flashySug {
   10% {outline: 15px solid lightblue;}
+}
+#title-flex > img {
+  height: 75px;
+  width: 75px;
+}
+#imagesForNightMode {
+  position: relative;
+  display: inline-block;
+}
+#imagesForNightMode #evilCat {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 99;
+  height: 75px;
+  width: 75px;
+}
+#imagesForNightMode:hover #evilCat {
+  display: inline;
+  height: 75px;
+  width: 75px;
+}
+#dontTouchMe{
+  height: 75px;
+  width: 75px;
 }
